@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      title: "Praktikum 1",
+      title: "Tugas Pertama flutter",
       home: Scaffold(
-        appBar: AppBar(title: Text('Praktikum 1'),),
+        appBar: AppBar(title: Text('Tugas Pertama Flutter'),),
         body: Material(
           color: Colors.white,
           child: Center(
@@ -13,6 +13,7 @@ void main() {
               "Suwanto \n"
               "1931710034",
               textDirection: TextDirection.ltr,
+              textAlign: TextAlign.center,
               style: TextStyle(color: Colors.deepPurple, fontSize: 20.0),
             ),
           ),
